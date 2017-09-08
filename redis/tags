@@ -1,0 +1,405 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADLIST_H_	adlist.h	9;"	d
+AE_ALL_EVENTS	ae.h	20;"	d
+AE_DONT_WAIT	ae.h	21;"	d
+AE_ERR	ae.h	12;"	d
+AE_FILE_EVENTS	ae.h	18;"	d
+AE_H_	ae.h	9;"	d
+AE_NOMORE	ae.h	23;"	d
+AE_NONE	ae.h	14;"	d
+AE_NOTUSED	ae.h	25;"	d
+AE_OK	ae.h	11;"	d
+AE_READABLE	ae.h	15;"	d
+AE_TIME_EVENTS	ae.h	19;"	d
+AE_WRITEABLE	ae.h	16;"	d
+AF_LOCAL	anet.h	9;"	d
+AL_START_HEAD	adlist.h	58;"	d
+AL_START_TAIL	adlist.h	59;"	d
+ANET_CONNECT_NONBLOCK	anet.c	152;"	d	file:
+ANET_CONNECT_NONE	anet.c	151;"	d	file:
+ANET_ERR	anet.h	5;"	d
+ANET_ERR_LEN	anet.h	6;"	d
+ANET_H	anet.h	2;"	d
+ANET_OK	anet.h	4;"	d
+ASM_SRCS	Debug/sources.mk	/^ASM_SRCS := $/;"	m
+CC_DEPS	Debug/sources.mk	/^CC_DEPS := $/;"	m
+CC_SRCS	Debug/sources.mk	/^CC_SRCS := $/;"	m
+CPP_DEPS	Debug/sources.mk	/^CPP_DEPS := $/;"	m
+CPP_SRCS	Debug/sources.mk	/^CPP_SRCS := $/;"	m
+CXX_DEPS	Debug/sources.mk	/^CXX_DEPS := $/;"	m
+CXX_SRCS	Debug/sources.mk	/^CXX_SRCS := $/;"	m
+C_DEPS	Debug/sources.mk	/^C_DEPS := $/;"	m
+C_SRCS	Debug/sources.mk	/^C_SRCS := $/;"	m
+C_UPPER_DEPS	Debug/sources.mk	/^C_UPPER_DEPS := $/;"	m
+C_UPPER_SRCS	Debug/sources.mk	/^C_UPPER_SRCS := $/;"	m
+DICT_ERR	dict.h	14;"	d
+DICT_HT_INITIAL_SIZE	dict.h	58;"	d
+DICT_H_	dict.h	11;"	d
+DICT_NOTUSED	dict.h	16;"	d
+DICT_OK	dict.h	13;"	d
+EXECUTABLES	Debug/sources.mk	/^EXECUTABLES := $/;"	m
+LIBS	Debug/objects.mk	/^LIBS :=$/;"	m
+OBJS	Debug/sources.mk	/^OBJS := $/;"	m
+OBJ_SRCS	Debug/sources.mk	/^OBJ_SRCS := $/;"	m
+O_SRCS	Debug/sources.mk	/^O_SRCS := $/;"	m
+PREFIX_SIZE	zmalloc.c	17;"	d	file:
+RM	Debug/makefile	/^RM := rm -rf$/;"	m
+SUBDIRS	Debug/sources.mk	/^SUBDIRS := \\$/;"	m
+S_UPPER_SRCS	Debug/sources.mk	/^S_UPPER_SRCS := $/;"	m
+USER_OBJS	Debug/objects.mk	/^USER_OBJS :=$/;"	m
+ZMALLOC_H_	zmalloc.h	9;"	d
+_ALL_SOURCE	fmacros.h	41;"	d
+_BSD_SOURCE	fmacros.h	33;"	d
+_DEFAULT_SOURCE	fmacros.h	37;"	d
+_FILE_OFFSET_BITS	fmacros.h	59;"	d
+_GNU_SOURCE	fmacros.h	36;"	d
+_LARGEFILE_SOURCE	fmacros.h	58;"	d
+_POSIX_C_SOURCE	fmacros.h	55;"	d
+_REDIS_FMACRO_H	fmacros.h	31;"	d
+_XOPEN_SOURCE	fmacros.h	45;"	d
+_XOPEN_SOURCE	fmacros.h	51;"	d
+_dictExpandIfNeeded	dict.c	/^static int _dictExpandIfNeeded(dict *ht);$/;"	p	file:	signature:(dict *ht)
+_dictInit	dict.c	/^int _dictInit(dict *d,dictType *type,void *privDataPtr)$/;"	f	signature:(dict *d,dictType *type,void *privDataPtr)
+_dictInit	dict.c	/^static int _dictInit(dict *ht,dictType *type,void *privDataPtr);$/;"	p	file:	signature:(dict *ht,dictType *type,void *privDataPtr)
+_dictKeyIndex	dict.c	/^static int _dictKeyIndex(dict *ht,const void *key);$/;"	p	file:	signature:(dict *ht,const void *key)
+_dictNextPower	dict.c	/^static unsigned long _dictNextPower(unsigned long size);$/;"	p	file:	signature:(unsigned long size)
+_dictReset	dict.c	/^static void _dictReset(dictht *ht)$/;"	f	file:	signature:(dictht *ht)
+aeBeforeSleepProc	ae.h	/^typedef void aeBeforeSleepProc(struct aeEventLoop *eventloop);$/;"	t
+aeCreateEventLoop	ae.h	/^aeEventLoop *aeCreateEventLoop(int setsize);$/;"	p	signature:(int setsize)
+aeCreateFileEvent	ae.h	/^int aeCreateFileEvent(aeEventLoop *eventLoop,int fd,int mask);$/;"	p	signature:(aeEventLoop *eventLoop,int fd,int mask)
+aeCreateTimeEvent	ae.h	/^long long aeCreateTimeEvent(aeEventLoop *eventLoop,$/;"	p	signature:(aeEventLoop *eventLoop, long long milliseconds, aeTimeProc *proc, void *clientdata, aeEventFinalizerProc *finalizerProc)
+aeDeleteEventLoop	ae.h	/^void aeDeleteEventLoop(aeEventLoop *eventloop);$/;"	p	signature:(aeEventLoop *eventloop)
+aeDeleteTimeEvent	ae.h	/^int aeDeleteTimeEvent(aeEventLoop *eventLoop,long long id);$/;"	p	signature:(aeEventLoop *eventLoop,long long id)
+aeEventFinalizerProc	ae.h	/^typedef void aeEventFinalizerProc(struct aeEventLoop *eventloop,void *clientdata);$/;"	t
+aeEventLoop	ae.h	/^typedef struct aeEventLoop{$/;"	s
+aeEventLoop	ae.h	/^}aeEventLoop;$/;"	t	typeref:struct:aeEventLoop
+aeEventLoop::apidata	ae.h	/^	void *apidata;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::beforesleep	ae.h	/^	aeBeforeSleepProc *beforesleep;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::events	ae.h	/^	aeFileEvent *events;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::fired	ae.h	/^	aeFiredEvent *fired;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::lastTime	ae.h	/^	time_t lastTime;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::maxfd	ae.h	/^	int maxfd;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::setsize	ae.h	/^	int setsize;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::stop	ae.h	/^	int stop;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::timeEventHead	ae.h	/^	aeTimeEvent *timeEventHead;$/;"	m	struct:aeEventLoop	access:public
+aeEventLoop::timeEventNextId	ae.h	/^	long long timeEventNextId;$/;"	m	struct:aeEventLoop	access:public
+aeFileEvent	ae.h	/^typedef struct aeFileEvent{$/;"	s
+aeFileEvent	ae.h	/^}aeFileEvent;$/;"	t	typeref:struct:aeFileEvent
+aeFileEvent::clientData	ae.h	/^	void *clientData;$/;"	m	struct:aeFileEvent	access:public
+aeFileEvent::mask	ae.h	/^	int mask;$/;"	m	struct:aeFileEvent	access:public
+aeFileEvent::rfileProc	ae.h	/^	aeFileProc *rfileProc;$/;"	m	struct:aeFileEvent	access:public
+aeFileEvent::wfileProc	ae.h	/^	aeFileProc *wfileProc;$/;"	m	struct:aeFileEvent	access:public
+aeFileProc	ae.h	/^typedef void aeFileProc(struct aeEventLoop *eventloop,int fd,void *clientdata,int mask);$/;"	t
+aeFiredEvent	ae.h	/^typedef struct aeFiredEvent{$/;"	s
+aeFiredEvent	ae.h	/^}aeFiredEvent;$/;"	t	typeref:struct:aeFiredEvent
+aeFiredEvent::fd	ae.h	/^	int fd;$/;"	m	struct:aeFiredEvent	access:public
+aeFiredEvent::mask	ae.h	/^	int mask;$/;"	m	struct:aeFiredEvent	access:public
+aeGetApiName	ae.h	/^char *aeGetApiName(void);$/;"	p	signature:(void)
+aeGetFileEvents	ae.h	/^int aeGetFileEvents(aeEventLoop *eventLoop,int fd);$/;"	p	signature:(aeEventLoop *eventLoop,int fd)
+aeMain	ae.h	/^void aeMain(aeEventLoop *eventLoop);$/;"	p	signature:(aeEventLoop *eventLoop)
+aeProcessEvents	ae.h	/^int aeProcessEvents(aeEventLoop *eventLoop,int flags);$/;"	p	signature:(aeEventLoop *eventLoop,int flags)
+aeSetBeforeSleepProc	ae.h	/^void aeSetBeforeSleepProc(aeEventLoop *eventLoop,aeBeforeSleepProc *beforesleep);$/;"	p	signature:(aeEventLoop *eventLoop,aeBeforeSleepProc *beforesleep)
+aeStop	ae.h	/^void aeStop(aeEventLoop *eventLoop);$/;"	p	signature:(aeEventLoop *eventLoop)
+aeTimeEvent	ae.h	/^typedef struct aeTimeEvent{$/;"	s
+aeTimeEvent	ae.h	/^}aeTimeEvent;$/;"	t	typeref:struct:aeTimeEvent
+aeTimeEvent::clientData	ae.h	/^	void *clientData;$/;"	m	struct:aeTimeEvent	access:public
+aeTimeEvent::finalizerProc	ae.h	/^	aeEventFinalizerProc *finalizerProc;$/;"	m	struct:aeTimeEvent	access:public
+aeTimeEvent::id	ae.h	/^	long long id;$/;"	m	struct:aeTimeEvent	access:public
+aeTimeEvent::next	ae.h	/^	struct aeTimeEvent *next;$/;"	m	struct:aeTimeEvent	typeref:struct:aeTimeEvent::aeTimeEvent	access:public
+aeTimeEvent::timeProc	ae.h	/^	aeTimeProc *timeProc;$/;"	m	struct:aeTimeEvent	access:public
+aeTimeEvent::when_ms	ae.h	/^	long when_ms;$/;"	m	struct:aeTimeEvent	access:public
+aeTimeEvent::when_sec	ae.h	/^	long when_sec;$/;"	m	struct:aeTimeEvent	access:public
+aeTimeProc	ae.h	/^typedef int aeTimeProc(struct aeEventLoop *eventloop,long long id,void *clientdata);$/;"	t
+aeWait	ae.h	/^int aeWait(int fd,int mask,long long milliseconds);$/;"	p	signature:(int fd,int mask,long long milliseconds)
+anetCreateSocket	anet.c	/^static int anetCreateSocket(char *err,int domain)$/;"	f	file:	signature:(char *err,int domain)
+anetDisableTcpNoDelay	anet.c	/^int anetDisableTcpNoDelay(char *err,int fd)$/;"	f	signature:(char *err,int fd)
+anetDisableTcpNoDelay	anet.h	/^int anetDisableTcpNoDelay(char *err,int fd);$/;"	p	signature:(char *err,int fd)
+anetEnableTcpNoDelay	anet.c	/^int anetEnableTcpNoDelay(char *err,int fd)$/;"	f	signature:(char *err,int fd)
+anetEnableTcpNoDelay	anet.h	/^int anetEnableTcpNoDelay(char *err,int fd);$/;"	p	signature:(char *err,int fd)
+anetGenericAccept	anet.c	/^static int anetGenericAccept(char *err,int s,struct sockaddr *sa,socklen_t *len)$/;"	f	file:	signature:(char *err,int s,struct sockaddr *sa,socklen_t *len)
+anetKeepAlive	anet.c	/^int anetKeepAlive(char *err,int fd,int interval)$/;"	f	signature:(char *err,int fd,int interval)
+anetKeepAlive	anet.h	/^int anetKeepAlive(char *err,int fd,int interval);$/;"	p	signature:(char *err,int fd,int interval)
+anetListen	anet.c	/^static int anetListen(char *err,int s,struct sockaddr *sa,socklen_t len)$/;"	f	file:	signature:(char *err,int s,struct sockaddr *sa,socklen_t len)
+anetNonBlock	anet.c	/^int anetNonBlock(char *err,int fd)$/;"	f	signature:(char *err,int fd)
+anetNonBlock	anet.h	/^int anetNonBlock(char *err,int fd);$/;"	p	signature:(char *err,int fd)
+anetPeerToString	anet.c	/^int anetPeerToString(int fd,char *ip,int *port)$/;"	f	signature:(int fd,char *ip,int *port)
+anetPeerToString	anet.h	/^int anetPeerToString(int fd,char *ip,int *port);$/;"	p	signature:(int fd,char *ip,int *port)
+anetRead	anet.c	/^int anetRead(int fd,char *buf,int count)$/;"	f	signature:(int fd,char *buf,int count)
+anetRead	anet.h	/^int anetRead(int fd,char *buf,int count);$/;"	p	signature:(int fd,char *buf,int count)
+anetResolve	anet.c	/^int anetResolve(char *err,char *host,char *ipbuf)$/;"	f	signature:(char *err,char *host,char *ipbuf)
+anetResolve	anet.h	/^int anetResolve(char *err,char *host,char *ipbuf);$/;"	p	signature:(char *err,char *host,char *ipbuf)
+anetSetError	anet.c	/^static void anetSetError(char *err,const char *fmt,...)$/;"	f	file:	signature:(char *err,const char *fmt,...)
+anetSetSendBuffer	anet.c	/^int anetSetSendBuffer(char *err,int fd,int buffsize)$/;"	f	signature:(char *err,int fd,int buffsize)
+anetSetTcpNoDelay	anet.c	/^static int anetSetTcpNoDelay(char *err,int fd,int val)$/;"	f	file:	signature:(char *err,int fd,int val)
+anetSockName	anet.c	/^int anetSockName(int fd,char *ip,int *port)$/;"	f	signature:(int fd,char *ip,int *port)
+anetTcpAccept	anet.c	/^int anetTcpAccept(char *err,int s,char *ip,int *port)$/;"	f	signature:(char *err,int s,char *ip,int *port)
+anetTcpAccept	anet.h	/^int anetTcpAccept(char *err,int serversock,char *ip,int *port);$/;"	p	signature:(char *err,int serversock,char *ip,int *port)
+anetTcpConnect	anet.c	/^int anetTcpConnect(char *err,char *addr,int port)$/;"	f	signature:(char *err,char *addr,int port)
+anetTcpConnect	anet.h	/^int anetTcpConnect(char *err,char *addr,int port);$/;"	p	signature:(char *err,char *addr,int port)
+anetTcpGenericConnect	anet.c	/^static int anetTcpGenericConnect(char *err,char *addr,int port,int flags)$/;"	f	file:	signature:(char *err,char *addr,int port,int flags)
+anetTcpKeepAlive	anet.c	/^int anetTcpKeepAlive(char *err,int fd)$/;"	f	signature:(char *err,int fd)
+anetTcpKeepAlive	anet.h	/^int anetTcpKeepAlive(char *err,int fd);$/;"	p	signature:(char *err,int fd)
+anetTcpNonBlockConnect	anet.c	/^int anetTcpNonBlockConnect(char *err,char *addr,int port)$/;"	f	signature:(char *err,char *addr,int port)
+anetTcpNonBlockConnect	anet.h	/^int anetTcpNonBlockConnect(char *err,char *addr,int port);$/;"	p	signature:(char *err,char *addr,int port)
+anetTcpServer	anet.c	/^int anetTcpServer(char *err,int port,char *bindaddr)$/;"	f	signature:(char *err,int port,char *bindaddr)
+anetTcpServer	anet.h	/^int anetTcpServer(char *err,int port,char *bindaddr);$/;"	p	signature:(char *err,int port,char *bindaddr)
+anetUnixAccept	anet.c	/^int anetUnixAccept(char *err,int s)$/;"	f	signature:(char *err,int s)
+anetUnixAccept	anet.h	/^int anetUnixAccept(char *err,int serversock);$/;"	p	signature:(char *err,int serversock)
+anetUnixConnect	anet.c	/^int anetUnixConnect(char *err,char *path)$/;"	f	signature:(char *err,char *path)
+anetUnixConnect	anet.h	/^int anetUnixConnect(char *err,char *path);$/;"	p	signature:(char *err,char *path)
+anetUnixGenericConnect	anet.c	/^int anetUnixGenericConnect(char *err,char *path,int flags){$/;"	f	signature:(char *err,char *path,int flags)
+anetUnixNonBlockConnect	anet.c	/^int anetUnixNonBlockConnect(char *err,char *path)$/;"	f	signature:(char *err,char *path)
+anetUnixNonBlockConnect	anet.h	/^int anetUnixNonBlockConnect(char *err,char *path);$/;"	p	signature:(char *err,char *path)
+anetUnixServer	anet.c	/^int anetUnixServer(char *err,char *path,mode_t perm)$/;"	f	signature:(char *err,char *path,mode_t perm)
+anetUnixServer	anet.h	/^int anetUnixServer(char *err,char *path,mode_t perm);$/;"	p	signature:(char *err,char *path,mode_t perm)
+anetWrite	anet.c	/^int anetWrite(int fd,char *buf,int count)$/;"	f	signature:(int fd,char *buf,int count)
+anetWrite	anet.h	/^int anetWrite(int fd,char *buf,int count);$/;"	p	signature:(int fd,char *buf,int count)
+apidata	ae.h	/^	void *apidata;$/;"	m	struct:aeEventLoop	access:public
+beforesleep	ae.h	/^	aeBeforeSleepProc *beforesleep;$/;"	m	struct:aeEventLoop	access:public
+clientData	ae.h	/^	void *clientData;$/;"	m	struct:aeFileEvent	access:public
+clientData	ae.h	/^	void *clientData;$/;"	m	struct:aeTimeEvent	access:public
+d	dict.h	/^	dict *d;$/;"	m	struct:dictIterator	access:public
+dicType	dict.h	/^typedef struct dicType{$/;"	s
+dicType::hashFunction	dict.h	/^	unsigned int (*hashFunction)(const void *key);$/;"	m	struct:dicType	access:public
+dicType::keyCompare	dict.h	/^	int (*keyCompare)(void *privdata,const void *key1,const void *key2);$/;"	m	struct:dicType	access:public
+dicType::keyDestructor	dict.h	/^	void (*keyDestructor)(void *privdata,void *key);$/;"	m	struct:dicType	access:public
+dicType::keyDup	dict.h	/^	void *(*keyDup)(void *privdata,const void *key);$/;"	m	struct:dicType	access:public
+dicType::valDestructor	dict.h	/^	void (*valDestructor)(void *privdata,void *obj);$/;"	m	struct:dicType	access:public
+dicType::valDup	dict.h	/^	void *(*valDup)(void *privdata,const void *obj);$/;"	m	struct:dicType	access:public
+dict	dict.h	/^typedef struct dict{$/;"	s
+dict	dict.h	/^}dict;$/;"	t	typeref:struct:dict
+dict::ht	dict.h	/^	dictht ht[2];$/;"	m	struct:dict	access:public
+dict::iterators	dict.h	/^	int iterators;$/;"	m	struct:dict	access:public
+dict::privdata	dict.h	/^	void *privdata;$/;"	m	struct:dict	access:public
+dict::rehashidx	dict.h	/^	int rehashidx;$/;"	m	struct:dict	access:public
+dict::type	dict.h	/^	dictType *type;$/;"	m	struct:dict	access:public
+dictAdd	dict.h	/^int dictAdd(dict *d,void *key,void *val);$/;"	p	signature:(dict *d,void *key,void *val)
+dictAddRaw	dict.h	/^dictEntry *dictAddRaw(dict *d,void *key);$/;"	p	signature:(dict *d,void *key)
+dictCompareKeys	dict.h	92;"	d
+dictCreate	dict.c	/^dict *dictCreate(dictType *type,void *privDataPtr)$/;"	f	signature:(dictType *type,void *privDataPtr)
+dictCreate	dict.h	/^dict *dictCreate(dictType *type,void *privDataPtr);$/;"	p	signature:(dictType *type,void *privDataPtr)
+dictDelete	dict.h	/^int dictDelete(dict *d,const void *key);$/;"	p	signature:(dict *d,const void *key)
+dictDeleteNoFree	dict.h	/^int dictDeleteNoFree(dict *d,const void *key);$/;"	p	signature:(dict *d,const void *key)
+dictDisableResize	dict.h	/^void dictDisableResize(void);$/;"	p	signature:(void)
+dictEmpty	dict.h	/^void dictEmpty(dict *d);$/;"	p	signature:(dict *d)
+dictEnableResize	dict.h	/^void dictEnableResize(void);$/;"	p	signature:(void)
+dictEntry	dict.h	/^typedef struct dictEntry{$/;"	s
+dictEntry	dict.h	/^} dictEntry;$/;"	t	typeref:struct:dictEntry
+dictEntry::__anon1::s64	dict.h	/^		int64_t s64;$/;"	m	union:dictEntry::__anon1	access:public
+dictEntry::__anon1::u64	dict.h	/^		uint64_t u64;$/;"	m	union:dictEntry::__anon1	access:public
+dictEntry::__anon1::val	dict.h	/^		void *val;$/;"	m	union:dictEntry::__anon1	access:public
+dictEntry::key	dict.h	/^	void *key;$/;"	m	struct:dictEntry	access:public
+dictEntry::next	dict.h	/^	struct dictEntry *next;$/;"	m	struct:dictEntry	typeref:struct:dictEntry::dictEntry	access:public
+dictEntry::v	dict.h	/^	} v;$/;"	m	struct:dictEntry	typeref:union:dictEntry::__anon1	access:public
+dictExpand	dict.c	/^int dictExpand(dict *d,unsigned long size)$/;"	f	signature:(dict *d,unsigned long size)
+dictExpand	dict.h	/^int dictExpand(dict *d,unsigned long size);$/;"	p	signature:(dict *d,unsigned long size)
+dictFetchValue	dict.h	/^void *dictFetchValue(dict *d,const void *key);$/;"	p	signature:(dict *d,const void *key)
+dictFind	dict.h	/^dictEntry *dictFind(dict *d,const void *key);$/;"	p	signature:(dict *d,const void *key)
+dictFreeKey	dict.h	79;"	d
+dictFreeVal	dict.h	60;"	d
+dictGenCaseHashFunction	dict.c	/^unsigned int dictGenCaseHashFunction(const unsigned char *buf,int len)$/;"	f	signature:(const unsigned char *buf,int len)
+dictGenCaseHashFunction	dict.h	/^unsigned int dictGenCaseHashFunction(const unsigned char *buf,int len);$/;"	p	signature:(const unsigned char *buf,int len)
+dictGenHashFunction	dict.c	/^unsigned int dictGenHashFunction(const void *key,int len)$/;"	f	signature:(const void *key,int len)
+dictGenHashFunction	dict.h	/^unsigned int dictGenHashFunction(const void *key,int len);$/;"	p	signature:(const void *key,int len)
+dictGetHashFunctionSeed	dict.c	/^uint32_t dictGetHashFunctionSeed(void)$/;"	f	signature:(void)
+dictGetHashFunctionSeed	dict.h	/^unsigned int dictGetHashFunctionSeed(void);$/;"	p	signature:(void)
+dictGetIterator	dict.h	/^dictIterator *dictGetIterator(dict *d);$/;"	p	signature:(dict *d)
+dictGetKey	dict.h	98;"	d
+dictGetRandomKey	dict.h	/^dictEntry *dictGetRandomKey(dict *d);$/;"	p	signature:(dict *d)
+dictGetSafeIterator	dict.h	/^dictIterator *dictGetSafeIterator(dict *d);$/;"	p	signature:(dict *d)
+dictGetSignedIntegerVal	dict.h	100;"	d
+dictGetUnsignedIntegerVal	dict.h	101;"	d
+dictGetVal	dict.h	99;"	d
+dictHashKey	dict.h	97;"	d
+dictIdentityHahsFunction	dict.c	/^unsigned int dictIdentityHahsFunction(unsigned int key)$/;"	f	signature:(unsigned int key)
+dictIntHashFunction	dict.c	/^unsigned int dictIntHashFunction(unsigned int key)$/;"	f	signature:(unsigned int key)
+dictIsRehashing	dict.h	104;"	d
+dictIterator	dict.h	/^typedef struct dictIterator{$/;"	s
+dictIterator	dict.h	/^}dictIterator;$/;"	t	typeref:struct:dictIterator
+dictIterator::d	dict.h	/^	dict *d;$/;"	m	struct:dictIterator	access:public
+dictIterator::entry	dict.h	/^	dictEntry *entry,*nextEntry;$/;"	m	struct:dictIterator	access:public
+dictIterator::index	dict.h	/^	int table,index,safe;$/;"	m	struct:dictIterator	access:public
+dictIterator::nextEntry	dict.h	/^	dictEntry *entry,*nextEntry;$/;"	m	struct:dictIterator	access:public
+dictIterator::safe	dict.h	/^	int table,index,safe;$/;"	m	struct:dictIterator	access:public
+dictIterator::table	dict.h	/^	int table,index,safe;$/;"	m	struct:dictIterator	access:public
+dictNext	dict.h	/^dictEntry *dictNext(dictIterator *iter);$/;"	p	signature:(dictIterator *iter)
+dictPrintStats	dict.h	/^void dictPrintStats(dict *d);$/;"	p	signature:(dict *d)
+dictRehash	dict.c	/^int dictRehash(dict *d,int n)$/;"	f	signature:(dict *d,int n)
+dictRehash	dict.h	/^int dictRehash(dict *d,int n);$/;"	p	signature:(dict *d,int n)
+dictRehashMilliseconds	dict.h	/^int dictRehashMilliseconds(dict *sd,int ms);$/;"	p	signature:(dict *sd,int ms)
+dictRelease	dict.h	/^void dictRelease(dict *d);$/;"	p	signature:(dict *d)
+dictReleaseIterator	dict.h	/^void dictReleaseIterator(dictIterator *iter);$/;"	p	signature:(dictIterator *iter)
+dictReplace	dict.h	/^int dictReplace(dict *d,void *key,void *val);$/;"	p	signature:(dict *d,void *key,void *val)
+dictReplaceRaw	dict.h	/^dictEntry *dictReplaceRaw(dict *d,void *key);$/;"	p	signature:(dict *d,void *key)
+dictResize	dict.c	/^int dictResize(dict *d)$/;"	f	signature:(dict *d)
+dictResize	dict.h	/^int dictResize(dict *d);$/;"	p	signature:(dict *d)
+dictSetHashFUnctionSeed	dict.c	/^void dictSetHashFUnctionSeed(uint32_t seed)$/;"	f	signature:(uint32_t seed)
+dictSetHashFunctionSeed	dict.h	/^void dictSetHashFunctionSeed(unsigned int initval);$/;"	p	signature:(unsigned int initval)
+dictSetKey	dict.h	84;"	d
+dictSetSignedIntegerVal	dict.h	73;"	d
+dictSetUnsignedIntegerVal	dict.h	76;"	d
+dictSetVal	dict.h	65;"	d
+dictSize	dict.h	103;"	d
+dictSlots	dict.h	102;"	d
+dictType	dict.h	/^}dictType;$/;"	t	typeref:struct:dicType
+dict_can_resize	dict.c	/^static int dict_can_resize = 1;$/;"	v	file:
+dict_force_resize_ratio	dict.c	/^static unsigned int dict_force_resize_ratio = 5;$/;"	v	file:
+dict_hash_function_seed	dict.c	/^static uint32_t dict_hash_function_seed = 5381;$/;"	v	file:
+dictht	dict.h	/^typedef struct dictht{$/;"	s
+dictht	dict.h	/^}dictht;$/;"	t	typeref:struct:dictht
+dictht::size	dict.h	/^	unsigned long size;$/;"	m	struct:dictht	access:public
+dictht::sizemask	dict.h	/^	unsigned long sizemask;$/;"	m	struct:dictht	access:public
+dictht::table	dict.h	/^	dictEntry **table;$/;"	m	struct:dictht	access:public
+dictht::used	dict.h	/^	unsigned long used;$/;"	m	struct:dictht	access:public
+direction	adlist.h	/^	int direction;$/;"	m	struct:listIter	access:public
+dup	adlist.h	/^	void *(*dup)(void *ptr);$/;"	m	struct:list	access:public
+entry	dict.h	/^	dictEntry *entry,*nextEntry;$/;"	m	struct:dictIterator	access:public
+events	ae.h	/^	aeFileEvent *events;$/;"	m	struct:aeEventLoop	access:public
+fd	ae.h	/^	int fd;$/;"	m	struct:aeFiredEvent	access:public
+finalizerProc	ae.h	/^	aeEventFinalizerProc *finalizerProc;$/;"	m	struct:aeTimeEvent	access:public
+fired	ae.h	/^	aeFiredEvent *fired;$/;"	m	struct:aeEventLoop	access:public
+free	adlist.h	/^	void *(*free)(void *ptr);$/;"	m	struct:list	access:public
+hashFunction	dict.h	/^	unsigned int (*hashFunction)(const void *key);$/;"	m	struct:dicType	access:public
+head	adlist.h	/^	listNode *head;$/;"	m	struct:list	access:public
+ht	dict.h	/^	dictht ht[2];$/;"	m	struct:dict	access:public
+id	ae.h	/^	long long id;$/;"	m	struct:aeTimeEvent	access:public
+index	dict.h	/^	int table,index,safe;$/;"	m	struct:dictIterator	access:public
+iterators	dict.h	/^	int iterators;$/;"	m	struct:dict	access:public
+key	dict.h	/^	void *key;$/;"	m	struct:dictEntry	access:public
+keyCompare	dict.h	/^	int (*keyCompare)(void *privdata,const void *key1,const void *key2);$/;"	m	struct:dicType	access:public
+keyDestructor	dict.h	/^	void (*keyDestructor)(void *privdata,void *key);$/;"	m	struct:dicType	access:public
+keyDup	dict.h	/^	void *(*keyDup)(void *privdata,const void *key);$/;"	m	struct:dicType	access:public
+lastTime	ae.h	/^	time_t lastTime;$/;"	m	struct:aeEventLoop	access:public
+len	adlist.h	/^	unsigned long len;$/;"	m	struct:list	access:public
+list	adlist.h	/^typedef struct list{$/;"	s
+list::dup	adlist.h	/^	void *(*dup)(void *ptr);$/;"	m	struct:list	access:public
+list::free	adlist.h	/^	void *(*free)(void *ptr);$/;"	m	struct:list	access:public
+list::head	adlist.h	/^	listNode *head;$/;"	m	struct:list	access:public
+list::len	adlist.h	/^	unsigned long len;$/;"	m	struct:list	access:public
+list::match	adlist.h	/^	int (*match)(void *ptr,void *key);$/;"	m	struct:list	access:public
+list::tail	adlist.h	/^	listNode *tail;$/;"	m	struct:list	access:public
+listAddNodeHead	adlist.c	/^list *listAddNodeHead(list *list,void *value)$/;"	f	signature:(list *list,void *value)
+listAddNodeHead	adlist.h	/^list *listAddNodeHead(list *list,void *value);$/;"	p	signature:(list *list,void *value)
+listAddNodeTail	adlist.c	/^list *listAddNodeTail(list *list,void *value)$/;"	f	signature:(list *list,void *value)
+listAddNodeTail	adlist.h	/^list *listAddNodeTail(list *list,void *value);$/;"	p	signature:(list *list,void *value)
+listCreate	adlist.c	/^list *listCreate(void)$/;"	f	signature:(void)
+listCreate	adlist.h	/^list *listCreate(void);$/;"	p	signature:(void)
+listDelNode	adlist.c	/^void listDelNode(list *list,listNode *node)$/;"	f	signature:(list *list,listNode *node)
+listDelNode	adlist.h	/^void listDelNode(list *list,listNode *node);$/;"	p	signature:(list *list,listNode *node)
+listDup	adlist.c	/^list *listDup(list *orig)$/;"	f	signature:(list *orig)
+listDup	adlist.h	/^list *listDup(list *orig);$/;"	p	signature:(list *orig)
+listFirst	adlist.h	32;"	d
+listGetIterator	adlist.c	/^listIter *listGetIterator(list *list,int direction)$/;"	f	signature:(list *list,int direction)
+listGetIterator	adlist.h	/^listIter *listGetIterator(list *list,int direction);$/;"	p	signature:(list *list,int direction)
+listINsertNode	adlist.c	/^list *listINsertNode(list *list,listNode *old_node,void *value,int after)$/;"	f	signature:(list *list,listNode *old_node,void *value,int after)
+listIndex	adlist.c	/^listNode *listIndex(list *list,long index)$/;"	f	signature:(list *list,long index)
+listIndex	adlist.h	/^listNode *listIndex(list *list,long index);$/;"	p	signature:(list *list,long index)
+listInsertNode	adlist.h	/^list *listInsertNode(list *list,listNode *old_node,void *value,int after);$/;"	p	signature:(list *list,listNode *old_node,void *value,int after)
+listIter	adlist.h	/^typedef struct listIter{$/;"	s
+listIter	adlist.h	/^} listIter;$/;"	t	typeref:struct:listIter
+listIter::direction	adlist.h	/^	int direction;$/;"	m	struct:listIter	access:public
+listIter::next	adlist.h	/^	listNode *next;$/;"	m	struct:listIter	access:public
+listLast	adlist.h	33;"	d
+listLength	adlist.h	31;"	d
+listNext	adlist.c	/^listNode *listNext(listIter *iter)$/;"	f	signature:(listIter *iter)
+listNext	adlist.h	/^listNode *listNext(listIter *iter);$/;"	p	signature:(listIter *iter)
+listNextNOde	adlist.h	35;"	d
+listNode	adlist.h	/^typedef struct listNode{$/;"	s
+listNode	adlist.h	/^} listNode;$/;"	t	typeref:struct:listNode
+listNode::next	adlist.h	/^	struct listNode *next;$/;"	m	struct:listNode	typeref:struct:listNode::listNode	access:public
+listNode::prev	adlist.h	/^	struct listNode *prev;$/;"	m	struct:listNode	typeref:struct:listNode::listNode	access:public
+listNode::value	adlist.h	/^	void *value;$/;"	m	struct:listNode	access:public
+listNodeValue	adlist.h	36;"	d
+listPrevNode	adlist.h	34;"	d
+listRelease	adlist.c	/^void listRelease(list *list)$/;"	f	signature:(list *list)
+listRelease	adlist.h	/^void listRelease(list *list);$/;"	p	signature:(list *list)
+listReleaseIterator	adlist.c	/^void listReleaseIterator(listIter *iter)$/;"	f	signature:(listIter *iter)
+listReleaseIterator	adlist.h	/^void listReleaseIterator(listIter *iter);$/;"	p	signature:(listIter *iter)
+listRewind	adlist.c	/^void listRewind(list *list,listIter *li)$/;"	f	signature:(list *list,listIter *li)
+listRewind	adlist.h	/^void listRewind(list *list,listIter *li);$/;"	p	signature:(list *list,listIter *li)
+listRewindTail	adlist.c	/^void listRewindTail(list *list,listIter *li)$/;"	f	signature:(list *list,listIter *li)
+listRewindTail	adlist.h	/^void listRewindTail(list *list,listIter *li);$/;"	p	signature:(list *list,listIter *li)
+listRotate	adlist.c	/^void listRotate(list *list)$/;"	f	signature:(list *list)
+listRotate	adlist.h	/^void listRotate(list *list);$/;"	p	signature:(list *list)
+listSearchKey	adlist.c	/^listNode *listSearchKey(list *list,void *key)$/;"	f	signature:(list *list,void *key)
+listSearchKey	adlist.h	/^listNode *listSearchKey(list *list,void *key);$/;"	p	signature:(list *list,void *key)
+listSetDupMethod	adlist.h	38;"	d
+listSetFreeMethod	adlist.h	39;"	d
+listSetMatch	adlist.h	40;"	d
+main	zmalloc.c	/^int main()$/;"	f
+mask	ae.h	/^	int mask;$/;"	m	struct:aeFileEvent	access:public
+mask	ae.h	/^	int mask;$/;"	m	struct:aeFiredEvent	access:public
+match	adlist.h	/^	int (*match)(void *ptr,void *key);$/;"	m	struct:list	access:public
+maxfd	ae.h	/^	int maxfd;$/;"	m	struct:aeEventLoop	access:public
+next	adlist.h	/^	listNode *next;$/;"	m	struct:listIter	access:public
+next	adlist.h	/^	struct listNode *next;$/;"	m	struct:listNode	typeref:struct:listNode::listNode	access:public
+next	ae.h	/^	struct aeTimeEvent *next;$/;"	m	struct:aeTimeEvent	typeref:struct:aeTimeEvent::aeTimeEvent	access:public
+next	dict.h	/^	struct dictEntry *next;$/;"	m	struct:dictEntry	typeref:struct:dictEntry::dictEntry	access:public
+nextEntry	dict.h	/^	dictEntry *entry,*nextEntry;$/;"	m	struct:dictIterator	access:public
+prev	adlist.h	/^	struct listNode *prev;$/;"	m	struct:listNode	typeref:struct:listNode::listNode	access:public
+privdata	dict.h	/^	void *privdata;$/;"	m	struct:dict	access:public
+rehashidx	dict.h	/^	int rehashidx;$/;"	m	struct:dict	access:public
+rfileProc	ae.h	/^	aeFileProc *rfileProc;$/;"	m	struct:aeFileEvent	access:public
+s64	dict.h	/^		int64_t s64;$/;"	m	union:dictEntry::__anon1	access:public
+safe	dict.h	/^	int table,index,safe;$/;"	m	struct:dictIterator	access:public
+setsize	ae.h	/^	int setsize;$/;"	m	struct:aeEventLoop	access:public
+size	dict.h	/^	unsigned long size;$/;"	m	struct:dictht	access:public
+sizemask	dict.h	/^	unsigned long sizemask;$/;"	m	struct:dictht	access:public
+stop	ae.h	/^	int stop;$/;"	m	struct:aeEventLoop	access:public
+table	dict.h	/^	dictEntry **table;$/;"	m	struct:dictht	access:public
+table	dict.h	/^	int table,index,safe;$/;"	m	struct:dictIterator	access:public
+tail	adlist.h	/^	listNode *tail;$/;"	m	struct:list	access:public
+timeEventHead	ae.h	/^	aeTimeEvent *timeEventHead;$/;"	m	struct:aeEventLoop	access:public
+timeEventNextId	ae.h	/^	long long timeEventNextId;$/;"	m	struct:aeEventLoop	access:public
+timeProc	ae.h	/^	aeTimeProc *timeProc;$/;"	m	struct:aeTimeEvent	access:public
+type	dict.h	/^	dictType *type;$/;"	m	struct:dict	access:public
+u64	dict.h	/^		uint64_t u64;$/;"	m	union:dictEntry::__anon1	access:public
+update_zmalloc_stat_add	zmalloc.c	19;"	d	file:
+update_zmalloc_stat_alloc	zmalloc.c	31;"	d	file:
+update_zmalloc_stat_free	zmalloc.c	41;"	d	file:
+update_zmalloc_stat_sub	zmalloc.c	25;"	d	file:
+used	dict.h	/^	unsigned long used;$/;"	m	struct:dictht	access:public
+used_memory	zmalloc.c	/^static size_t used_memory = 0;$/;"	v	file:
+used_memory_mutex	zmalloc.c	/^pthread_mutex_t used_memory_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+v	dict.h	/^	} v;$/;"	m	struct:dictEntry	typeref:union:dictEntry::__anon1	access:public
+val	dict.h	/^		void *val;$/;"	m	union:dictEntry::__anon1	access:public
+valDestructor	dict.h	/^	void (*valDestructor)(void *privdata,void *obj);$/;"	m	struct:dicType	access:public
+valDup	dict.h	/^	void *(*valDup)(void *privdata,const void *obj);$/;"	m	struct:dicType	access:public
+value	adlist.h	/^	void *value;$/;"	m	struct:listNode	access:public
+wfileProc	ae.h	/^	aeFileProc *wfileProc;$/;"	m	struct:aeFileEvent	access:public
+when_ms	ae.h	/^	long when_ms;$/;"	m	struct:aeTimeEvent	access:public
+when_sec	ae.h	/^	long when_sec;$/;"	m	struct:aeTimeEvent	access:public
+zcalloc	zmalloc.c	/^void *zcalloc(size_t size)$/;"	f	signature:(size_t size)
+zcalloc	zmalloc.h	/^void *zcalloc(size_t size);$/;"	p	signature:(size_t size)
+zfree	zmalloc.c	/^void zfree(void *ptr)$/;"	f	signature:(void *ptr)
+zfree	zmalloc.h	/^void zfree(void *ptr);$/;"	p	signature:(void *ptr)
+zlibc_free	zmalloc.c	/^void zlibc_free(void *ptr)$/;"	f	signature:(void *ptr)
+zlibc_free	zmalloc.h	/^void zlibc_free(void *ptr);$/;"	p	signature:(void *ptr)
+zmalloc	zmalloc.c	/^void *zmalloc(size_t size)$/;"	f	signature:(size_t size)
+zmalloc	zmalloc.h	/^void *zmalloc(size_t size);$/;"	p	signature:(size_t size)
+zmalloc_default_oom	zmalloc.c	/^static zmalloc_default_oom(size_t size)$/;"	f	file:	signature:(size_t size)
+zmalloc_enable_thread_safness	zmalloc.c	/^void zmalloc_enable_thread_safness(void)$/;"	f	signature:(void)
+zmalloc_enable_thread_safness	zmalloc.h	/^void zmalloc_enable_thread_safness(void);$/;"	p	signature:(void)
+zmalloc_get_fragmentation_ratio	zmalloc.c	/^float zmalloc_get_fragmentation_ratio(void)$/;"	f	signature:(void)
+zmalloc_get_fragmentation_ratio	zmalloc.h	/^float zmalloc_get_fragmentation_ratio(void);$/;"	p	signature:(void)
+zmalloc_get_private_dirty	zmalloc.c	/^size_t zmalloc_get_private_dirty(void)$/;"	f	signature:(void)
+zmalloc_get_private_dirty	zmalloc.h	/^size_t zmalloc_get_private_dirty(void);$/;"	p	signature:(void)
+zmalloc_get_rss	zmalloc.c	/^size_t zmalloc_get_rss(void)$/;"	f	signature:(void)
+zmalloc_get_rss	zmalloc.h	/^size_t zmalloc_get_rss(void);$/;"	p	signature:(void)
+zmalloc_oom_handler	zmalloc.c	/^static void (*zmalloc_oom_handler)(size_t) = zmalloc_default_oom;$/;"	v	file:
+zmalloc_set_oom_handler	zmalloc.c	/^void zmalloc_set_oom_handler(void(*oom_handler)(size_t))$/;"	f	signature:(void(*oom_handler)(size_t))
+zmalloc_set_oom_handler	zmalloc.h	/^void zmalloc_set_oom_handler(void (*oom_handler)(size_t));$/;"	p	signature:(void (*oom_handler)(size_t))
+zmalloc_size	zmalloc.c	/^size_t zmalloc_size(void *ptr)$/;"	f	signature:(void *ptr)
+zmalloc_size	zmalloc.h	/^size_t zmalloc_size(void *ptr);$/;"	p	signature:(void *ptr)
+zmalloc_thread_safe	zmalloc.c	/^static int zmalloc_thread_safe = 0;$/;"	v	file:
+zmalloc_used_memory	zmalloc.c	/^size_t zmalloc_used_memory(void)$/;"	f	signature:(void)
+zmalloc_used_memory	zmalloc.h	/^size_t zmalloc_used_memory(void);$/;"	p	signature:(void)
+zrealloc	zmalloc.c	/^void *zrealloc(void *ptr,size_t size)$/;"	f	signature:(void *ptr,size_t size)
+zrealloc	zmalloc.h	/^void *zrealloc(void *ptr,size_t size);$/;"	p	signature:(void *ptr,size_t size)
+zstrdup	zmalloc.c	/^void *zstrdup(const char *s)$/;"	f	signature:(const char *s)
+zstrdup	zmalloc.h	/^void *zstrdup(const char *s);$/;"	p	signature:(const char *s)
