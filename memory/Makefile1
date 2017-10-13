@@ -1,0 +1,8 @@
+memory: main.o zmalloc.o
+	g++ -o memory main.o zmalloc.o 
+main.o:
+	g++ -c -g main.c
+zmalloc.o: zmalloc.c zmalloc.h
+	g++ -c -g zmalloc.c
+clean:
+	rm -f *.o

@@ -16,7 +16,7 @@
 #include<unistd.h>
 #include<netdb.h>
 #include<fcntl.h>
-#include<error.h>
+#include<errno.h>
 #include<stdio.h>
 #include<stdarg.h>
 #include "anet.h"

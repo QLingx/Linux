@@ -14,13 +14,13 @@ void zlibc_free(void *ptr){
 #define update_zmalloc_stat_add(__n) do{\
 	pthread_mutex_lock(&used_memory_mutex);\
 	used_memory += (__n);\
-	phtread_mutex_unlock(&used_memory_mutex);\
+	pthread_mutex_unlock(&used_memory_mutex);\
 }while(0)
 
 #define update_zmalloc_stat_sub(__n) do{\
 	pthread_mutex_lock(&used_memory_mutex);\
 	used_memory -= (__n);\
-	phtread_mutex_unlock(&used_memory_mutex);\
+	pthread_mutex_unlock(&used_memory_mutex);\
 }while(0)
 
 #define update_zmalloc_stat_alloc(__n)do{\
@@ -105,7 +105,7 @@ void zfree(void *ptr){
 
 char *zstrdup(const char *s){
 	size_t l= strlen(s)+1;
-	char *p = zmalloc(l);
+	char *p = (char*)zmalloc(l);
 
 	memcpy(p,s,l);
 	return p;
