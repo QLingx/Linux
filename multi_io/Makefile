@@ -1,6 +1,6 @@
-poll:poll.o
-	g++ -o poll poll.o
-so: poll.c
-	g++ -g -c poll.c poll.o
+all:epoll_example
+
+epoll_example: epoll_example.c
+	g++ -Wall -Werror -o $@ epoll_example.c
 clean:
-	rm -rf *.o
+	@rm -v epoll_example

@@ -1,0 +1,10 @@
+.PHONY:clean
+
+main:seri.o
+	g++ -o main seri.o
+
+seri.o:01_fd_seri.c
+	g++ -c 01_fd_seri.c -o seri.o
+
+clean:
+	rm *.o main test.dat
