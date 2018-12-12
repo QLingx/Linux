@@ -77,8 +77,8 @@ void accept_request(int client){
 		while((*query_string != '?') && (*query_string != '\0')){
 			query_string++;
 		}
-		i (*query_string == '?'){
-			ci = 1;
+		if (*query_string == '?'){
+			cgi = 1;
 			*query_string = '\0';
 			query_string++;
 		}

@@ -19,7 +19,7 @@ int main(int argc,char *argv[]){
     struct sockaddr_in clnt_addr;
     socklen_t clnt_addr_size;
 
-    char message[] = "Hello World";
+    char message[] = "Hello World NICE TO MEET YOU HAHA";
 
     if(argc != 2){
         printf("Usage : %s <port>\n",argv[0]);
@@ -53,8 +53,10 @@ int main(int argc,char *argv[]){
         error_handling("accept() error");
     }
 
+    printf("message: %s\n",message);
     write(clnt_sock,message,sizeof(message));
 
+    // usleep(10000000);
     close(clnt_sock);
     close(serv_sock);
 

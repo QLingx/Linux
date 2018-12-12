@@ -14,7 +14,7 @@ void error_handling(const char *message){
 int main(int argc,char *argv[]){
     int sock;
     struct sockaddr_in serv_addr;
-    char message[30];
+    char message[256];
     int str_len = 0;
     int idx = 0;
     int read_len = 0;
@@ -38,7 +38,7 @@ int main(int argc,char *argv[]){
         error_handling("connect() error");
     }
 
-    while(read_len = read(sock,&message[idx++],1)){
+    while(read_len = read(sock,&message[idx++],255)){
         if(read_len == -1){
             error_handling("read() error");
         }
