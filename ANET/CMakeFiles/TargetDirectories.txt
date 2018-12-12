@@ -1,0 +1,4 @@
+/home/pc/workspace/Linux/ANet/CMakeFiles/edit_cache.dir
+/home/pc/workspace/Linux/ANet/CMakeFiles/rebuild_cache.dir
+/home/pc/workspace/Linux/ANet/CMakeFiles/server_test.dir
+/home/pc/workspace/Linux/ANet/CMakeFiles/server.dir
